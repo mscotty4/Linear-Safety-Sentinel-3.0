@@ -1,10 +1,13 @@
 {
   "name": "linear-safety-sentinel",
   "version": "1.0.0",
+  "description": "Linear-Safe-Sentinel UI for real-time threat detection in Linear workspaces",
+  "main": "index.js",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "vercel-build": "next build"
   },
   "dependencies": {
     "next": "^13.4.12",
@@ -13,20 +16,24 @@
   },
   "devDependencies": {
     "autoprefixer": "^10.4.21",
-    "postcss": "^8.5.6",
+    "postcss": "^8.5.14",
     "tailwindcss": "^3.4.17"
   },
-  "main": "postcss.config.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mscotty4/Linear-Safety-Sentel3.3.git"
+    "url": "git+https://github.com/mscotty4/Linear-Safety-Sentinel-3.0.git"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "siem",
+    "security",
+    "linear",
+    "threat-detection",
+    "nextjs"
+  ],
+  "author": "mscotty4",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/mscotty4/Linear-Safety-Sentel3.3/issues"
+    "url": "https://github.com/mscotty4/Linear-Safety-Sentinel-3.0/issues"
   },
-  "homepage": "https://github.com/mscotty4/Linear-Safety-Sentel3.3#readme",
-  "description": ""
+  "homepage": "https://github.com/mscotty4/Linear-Safety-Sentinel-3.0#readme"
 }
